@@ -5,5 +5,5 @@ runtime init/keymap.vim
 runtime plugins/completion-config.vim
 runtime plugins/rust-config.vim
 runtime plugins/rust-lsp-config.vim
-
-" autocmd UIEnter * runtime ginit.vim
+runtime plugins/trouble-config.vim
+runtime plugins/telescope-config.vim

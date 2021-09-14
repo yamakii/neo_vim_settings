@@ -21,5 +21,16 @@ nnoremap <silent> ga    <cmd>lua vim.lsp.buf.code_action()<CR>
 nnoremap <silent> g[ <cmd>lua vim.lsp.diagnostic.goto_prev()<CR>
 nnoremap <silent> g] <cmd>lua vim.lsp.diagnostic.goto_next()<CR>
 
+"" trouble.vim
+nnoremap <leader>xx <cmd>TroubleToggle<cr>
+nnoremap <leader>xw <cmd>TroubleToggle lsp_workspace_diagnostics<cr>
+nnoremap <leader>xd <cmd>TroubleToggle lsp_document_diagnostics<cr>
+nnoremap <leader>xq <cmd>TroubleToggle quickfix<cr>
+nnoremap <leader>xl <cmd>TroubleToggle loclist<cr>
+nnoremap gR <cmd>TroubleToggle lsp_references<cr>
+
 " Open GFiles
 nnoremap <Leader>f :GFiles<CR>
+
+nnoremap <silent> q: :History:<CR>
+nnoremap <silent> q/ :History/<CR>

@@ -51,4 +51,7 @@ Plug 'vim-airline/vim-airline'
 
 Plug 'cespare/vim-toml', { 'branch': 'main' }
 
+Plug 'kyazdani42/nvim-web-devicons'
+Plug 'folke/trouble.nvim'
+
 call plug#end()
