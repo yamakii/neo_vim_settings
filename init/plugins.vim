@@ -54,4 +54,6 @@ Plug 'cespare/vim-toml', { 'branch': 'main' }
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'folke/trouble.nvim'
 
+Plug 'bronson/vim-trailing-whitespace'
+
 call plug#end()
