@@ -34,3 +34,5 @@ nnoremap <Leader>f :GFiles<CR>
 
 nnoremap <silent> q: :History:<CR>
 nnoremap <silent> q/ :History/<CR>
+
+inoremap <silent> jj <ESC>
