@@ -5,4 +5,6 @@ set completeopt=menuone,noinsert,noselect
 set shortmess+=c
 set list
 set listchars=tab:>-,trail:-,nbsp:%,extends:>,precedes:<
-set splitbelow splitright 
+set splitbelow splitright
+set spell
+set spelllang=en_us,cjk

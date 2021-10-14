@@ -35,4 +35,7 @@ nnoremap <Leader>f :GFiles<CR>
 nnoremap <silent> q: :History:<CR>
 nnoremap <silent> q/ :History/<CR>
 
+" Open Fern
+nnoremap <Leader>d :Fern . -drawer -toggle -keep -width=35<CR>
+
 inoremap <silent> jj <ESC>

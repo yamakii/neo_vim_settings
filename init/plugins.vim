@@ -56,4 +56,7 @@ Plug 'folke/trouble.nvim'
 
 Plug 'bronson/vim-trailing-whitespace'
 
+Plug 'lambdalisue/fern.vim'
+Plug 'antoinemadec/FixCursorHold.nvim'
+
 call plug#end()

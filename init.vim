@@ -7,3 +7,4 @@ runtime plugins/rust-config.vim
 runtime plugins/rust-lsp-config.vim
 runtime plugins/trouble-config.vim
 runtime plugins/telescope-config.vim
+runtime plugins/fern-config.vim
